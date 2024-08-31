@@ -3367,7 +3367,7 @@ input, select, textarea {
 				}
 
 				#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
-					width: 4em;
+					width: 4em;s
 					right: 0;
 				}
 
@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/pillars_of_creation.webp"); 	/* Pilares de la creación */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3477,13 +3477,13 @@ input, select, textarea {
 					font-size: 0.7em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					/*text-transform: uppercase; /* MNo sólo mayúsculas */
 				}
 
-		#banner.major {
-			height: 75vh;
+		#banner.major { 
+			height: 275vh;   /* Modificar altura */
 			min-height: 30em;
-			max-height: 50em;
+			max-height: 100em;
 		}
 
 			#banner.major.alt {
